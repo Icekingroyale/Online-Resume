@@ -1,9 +1,18 @@
-*{
-    background-color: rgb(252, 69, 252);
+body{
+  background-color: black;
+  color: white;
 }
 
-h1{
-    color: black;
+main{
+  /* border: 2px solid red; */
+}
 
-}   
+.section{
+  display: flex;
+  /* border: 2px solid green; */
+  height: 300px;
+  gap: 100px;
+
+}
+
 
