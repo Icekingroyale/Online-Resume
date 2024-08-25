@@ -5,6 +5,12 @@ body{
 
 .header{
   background-color: rgb(97, 14, 28);
+  display: flex;
+  .navlink{
+    /* border: 2px solid yellow; */
+    margin-left: 250px;
+    margin-top: 45px;
+  }
 }
 
 .section{
@@ -15,12 +21,27 @@ body{
 
 }
 
-
-figure{
-  border: 2px solid red;
-  width: 50%;
-  height: 100px;
+.articles{
+  border: 2px solid blue;
 }
+
+.projects{
+  border: 2px solid green;
+  div{
+    margin: auto 200px;
+    width: 500px;
+    height: 100px;
+  }
+  figure{
+    border: 2px solid red;
+  }
+  a{
+    margin: auto 150px;
+  }
+}
+
+
+
 
 footer{
   background-color: rgb(105, 105, 12);
