@@ -1,3 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+}
+
 body{
   background-color: black;
   color: white;
@@ -6,18 +14,35 @@ body{
 .header{
   background-color: rgb(97, 14, 28);
   display: flex;
+
+  h1{
+    margin: 10px auto;
+
+  }
+
   .navlink{
     /* border: 2px solid yellow; */
     margin-left: 250px;
-    margin-top: 45px;
+    margin-top: 20px;
+
+    a{
+      color: white;
+      margin: 1px;
+    }
   }
 }
 
 .section{
   display: flex;
   /* border: 2px solid green; */
-  height: 300px;
-  gap: 100px;
+  gap: 200px; 
+  margin-left: 250px;
+  
+  img{
+    border: 2px solid red;
+    height: 300px;
+  
+  }
 
 }
 
@@ -40,9 +65,32 @@ body{
   }
 }
 
+.qualifications{
+  display: flex;
+  justify-content: space-around;
 
+  div{
+    border: 2px solid pink;
+    width: 200px;
+    height: 100px;
+  }
+}
 
 
 footer{
   background-color: rgb(105, 105, 12);
+  margin-top: 250px;
+  color: black;
+
+  h4{
+    margin-bottom: 10px;
+  }
+  a{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  p{
+    margin-top: 10px;
+  }
 }
