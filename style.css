@@ -19,7 +19,7 @@ h1{
 }
 
 h2{
-  /* color: rgb(97, 14, 28); */
+  color: rgb(179, 9, 37);
 }
 
 hr{
@@ -46,7 +46,9 @@ hr{
   
   }
   
-
+  .menulink{
+    display: none;
+  }
   .navlink{
     /* border: 2px solid yellow; */
     /* margin-left: 250px; */
@@ -325,7 +327,7 @@ footer{
   }
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 625px){
 
     body{
       overflow-x: hidden;
@@ -346,20 +348,33 @@ footer{
     }
 
     #open, #close{
+      position: absolute;
+      top: 0;
+      right: 0;
       width: 30px;
       height: auto;
-      margin: 20px auto;
-    }    
-
-    #close{
-      display: none;
-    }
+      margin: 30px auto;
+      z-index: 1;
+      }    
+  
+      #close{
+        /* border: 2px solid green; */
+        z-index: 2;
+        display: none;
+      }
 
 
     .navlink{
       display: none;
     }
 
+    .menulink{
+      display: block;
+      width: 100%;
+      height: 100vh;
+      background-color: brown;
+
+    }
 
     #articles{
       /* border: 2px solid blue; */
