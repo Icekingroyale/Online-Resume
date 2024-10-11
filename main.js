@@ -2,6 +2,7 @@ const navopen = document.getElementById('open')
 const navclose = document.getElementById('close')
 const navlink = document.getElementsByClassName('navlink')[0]
 const menu = document.getElementsByClassName('menulink')[0]
+const home = document.getElementsByClassName('home')[0]
 // console.log(menu)
 
 
@@ -18,3 +19,19 @@ navclose.addEventListener('click', () => {
     navclose.style.display = 'none'
 })
 
+navlink.addEventListener('click', () => {
+    menu.style.display = 'none'
+    navopen.style.display = 'block'
+    navclose.style.display = 'none'
+    
+})
+
+menu.addEventListener('click', () => {
+    menu.style.display = 'none'
+    navopen.style.display = 'block'
+    navclose.style.display = 'none'
+})
+
+// home.addEventListener('click', () => {
+    
+// })

@@ -11,7 +11,7 @@ body{
   background-color: black;
   color: white;
   overflow-x: hidden;
-  
+ 
 }
 
 h1{
@@ -34,7 +34,29 @@ hr{
   position: sticky;
   top: 0;
   z-index: 1000;
+
+  #home{
+    /* text-decoration: none; */
+    /* color: green; */
+    /* border: 2px solid white; */
+
+    img{
+      /* border: 2px solid black; */
+      text-decoration: none;
+    }
+    
+    h1{
+      color: white;
+      text-decoration: none;
+      display: inline;
+      width: 2px solid blue;
+      position: relative;
+      bottom: 40px;
+      }
+
+  }
   
+
   .menu{
     display: none;
   }
@@ -74,33 +96,35 @@ hr{
   }
 }
 
-.mainpage{
+/* .mainpage{
+  
   img{
     width: 200px;
     display: flex;
-
+    
   }
-}
-
-#intro{
-  /* border: 2px solid red; */
-  width: 150px;
-  margin: 50px auto -60px auto;
-  
-  
-}
+} */
 
 .intro{
+  gap: 20px;
+  /* background-color: aqua; */
+  
   /* border: 2px solid yellow; */
   display: flex;
+  flex-direction: column;
   padding: 50px;
+  height: 70vh;
   /* align-items: center;
   justify-content: center; */
   text-align: justify;
   width: 400px;
-  margin: 30px auto;
+  margin: 60px auto;
   font-size:smaller;
-  line-height: 1.5;
+
+
+  h3{
+    text-align: center;
+  }
 }
 
 
@@ -123,12 +147,12 @@ hr{
     text-decoration: none;
     color: white;
   }
-  
-  #ep2{
-    width: 300px;
-    height: 90%;
-  }
-
+    
+}
+.ep{
+  width: 100px;
+  height: 100px;
+  border: 2px solid red;
 }
 
 
@@ -320,6 +344,7 @@ footer{
 
   a:hover{
     transform: scale(1.5);
+    border: 2px solid green;
   }
   p{
     margin-top: 10px;
